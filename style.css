@@ -18,38 +18,49 @@ body {
     margin-left: 11vw;
 }
 
-#header{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1vw 3vw;
-        border-bottom: 1px solid #66666668;
-    }
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vw 0vw;
+    width: 940px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 20px;
 
-    #navbar {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-     
-    }
+}
 
-    #navbar li {
-        list-style: none;
-        padding: 0 5px 0 20px;
-        
-    }
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
-    #navbar li a {
-        text-decoration: none;
-        font-size: 14px/20px;
-        /* color: #444;     */
-        /* margin-bottom: -1px; */  
-        color: #666666;
-        transition: all ease 0.5s;
-        
-    }
+}
 
-    #navbar li a:hover{
-         color: #444;    
-    }
+#navbar li {
+    list-style: none;
+    padding: 0 5px 0 20px;
 
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 14px/20px;
+    /* color: #444;     */
+    /* margin-bottom: -1px; */
+    color: #666666;
+    transition: all ease 0.5s;
+   
+
+}
+
+/* #navbar li a:hover ,#navbar li a.home:hover {
+    color: #444;
+    border-bottom: 1px solid black;
+} */
+
+ul#navbar li a:hover, ul#navbar li a:active, ul#navbar li a.home {
+    color: #444;
+    border-bottom: 1px solid black;
+
+  }
