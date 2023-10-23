@@ -95,6 +95,7 @@ ul#navbar li a.home {
     background-position: center;
     animation: changimg 15s linear infinite;
     transition: all ease 1s;
+    margin-bottom: 0;
 
 }
 
@@ -117,16 +118,31 @@ ul#navbar li a.home {
     width:100%;
     height:100%;
     object-fit: contain;
-
 }
 
-img{
-    width:100%;
-    height:100%;
+.h2-para{
+
+padding: 40px 15px 10px 15px;
+text-align: center;
+background: #f9f9f9;
+border-bottom: 1px solid #e7e7e7;
+/* margin-bottom: 20px; */
+width: 940px;
+margin: 0  auto ;
+}
+.h2-para h2{
+    
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom:20px ;
+      
 }
 
-
-
+.h2-para p{
+    margin-bottom: 20px;
+    line-height: 20px;
+}
 
 
 
