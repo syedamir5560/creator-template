@@ -95,6 +95,13 @@ ul#navbar li a.home {
     margin-bottom: 0;
 }
 
+
+.slider-container .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 @keyframes changimg {
     0% {
         background-image: url('images/1.png');
@@ -140,34 +147,88 @@ ul#navbar li a.home {
     line-height: 20px;
 }
 
-.h2-para a{
+.h2-para a {
     list-style: none;
     text-decoration: none;
     color: #ffb141;
     transition: all ease 0.5s;
 }
 
-.h2-para i , .h2-para a:hover{
+.h2-para i,
+.h2-para a:hover {
     color: black;
 }
 
+/* our works */
 
-
-
-
-
-
-
-
-
-
-
-
-.slider-container .slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.title {
+    margin-top: 37px;
+    width: 92%;
+    background: url('https://thecreators.in/images/separator.png') repeat-x;
+    height: 25px;
+    margin-left: 38px;
 }
+
+.title h2 {
+    font-size: 18px;
+    font-weight: 600;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    background: #fff;
+    padding-right: 12px;
+}
+
+/*  */
+
+.produt-card-container {
+    width: 940px;
+    height: 220px;
+    /* background-color: #666666; */
+    margin-left: 38px;
+}
+
+.item1 {
+    width: 288px;
+    height: auto;
+    display: block;
+    position: relative;
+    padding: 5px;
+    /* background: #fff; */
+    border: 1px solid #efefef;
+    border-radius: 2px;
+}
+
+.item1 a {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.item1 img {
+    width: 100%;
+    height: auto;
+}
+
+span.title {
+    font-size: 14px;
+    background: #fff;
+    color: #444;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+span.title a {
+    color: #444;
+    text-decoration: none;
+}
+
+
+
+
+
 
 
 
