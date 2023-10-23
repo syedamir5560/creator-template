@@ -13,11 +13,11 @@ body {
 
 /* header */
 .main-container {
-margin: 0 auto 0 auto;
-width: 1020px;
-box-shadow: 0px 0px 10px #dedede;
-background: #fff;
-height: 200%;
+    margin: 0 auto 0 auto;
+    width: 1020px;
+    box-shadow: 0px 0px 10px #dedede;
+    background: #fff;
+    height: 200%;
 }
 
 #header {
@@ -40,9 +40,10 @@ height: 200%;
 
 }
 
-#navbar>.select-menu{
+#navbar>.select-menu {
     display: none;
 }
+
 #navbar li {
     list-style: none;
     padding: 0 5px 0 20px;
@@ -59,7 +60,7 @@ height: 200%;
     cursor: pointer;
 }
 
-#navbar li i{
+#navbar li i {
     text-decoration: none;
     font-size: 14px/20px;
     color: #666666;
@@ -67,17 +68,20 @@ height: 200%;
     cursor: pointer;
 }
 
-ul#navbar li a:hover, ul#navbar li a:active, ul#navbar li a.home {
+ul#navbar li a:hover,
+ul#navbar li a:active,
+ul#navbar li a.home {
     color: #444;
     border-bottom: 1px solid black;
-  }
+}
+
+
+/* Hero section */
 
 
 
-  
- 
-  
- 
+
+
 
 
 
@@ -99,27 +103,28 @@ ul#navbar li a:hover, ul#navbar li a:active, ul#navbar li a.home {
 
 
 /* Responsive for tab */
-@media only screen and (min-width: 768px) and (max-width: 1023px){
-    #header{
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #header {
         width: 768px;
         margin: 0 auto;
     }
 
-    #navbar li{
+    #navbar li {
         display: none;
     }
 
-    #navbar .select-menu{
-            display: block;
-            clear: both;
-            float: right;
-            margin-right:5vw;
-            padding: 5px 10px;
-            width: 30vw;
-            background-color: white;
-            border: 1px solid rgba(0, 0, 0, 0.22);
-            border-radius: 5px;
+    #navbar .select-menu {
+        display: block;
+        clear: both;
+        float: right;
+        margin-right: 5vw;
+        padding: 5px 10px;
+        width: 30vw;
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
     }
+
     .main-container {
         /* margin: 0 auto 0 auto; */
         width: 786px;
@@ -127,3 +132,89 @@ ul#navbar li a:hover, ul#navbar li a:active, ul#navbar li a.home {
     }
 }
 
+
+
+/* responsive for tab2 device */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    #header {
+        width: 455px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3vw 0vw;
+
+    }
+
+    #navbar li {
+        display: none;
+    }
+
+    #navbar .select-menu {
+        display: block;
+        clear: both;
+        float: right;
+        margin: 3vw 3vw;
+        margin-left:5vw;
+        padding: 10px 10px;
+        width: 30vw;
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+    }
+
+    .main-container {
+        /* margin: 0 auto 0 auto; */
+        width: 480px;
+        padding: 0 10px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive for mobile  */
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    #header {
+        width: 200px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3vw 0vw;
+
+    }
+
+    #navbar li {
+        display: none;
+    }
+
+    #navbar .select-menu {
+        display: block;
+        clear: both;
+        float: right;
+        margin: 2vw 3vw;
+        margin-left:5vw;
+        padding: 10px 10px;
+        width: 60vw;
+        background-color: white;
+        border: 1px solid rgba(0, 0 , 0, 0.22);
+        border-radius: 5px;
+    
+    }
+
+    .main-container {
+        /* margin: 0 auto 0 auto; */
+        width: 320px;
+        padding: 0 10px;
+
+    }
+}
