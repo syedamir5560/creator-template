@@ -17,7 +17,7 @@ body {
     width: 1020px;
     box-shadow: 0px 0px 10px #dedede;
     background: #fff;
-    height: 300%;
+    height: auto;
 }
 
 #header {
@@ -293,7 +293,7 @@ span.title a {
 #footer h3 {
     font-size: 15px;
     font-weight: 700;
-    
+
 }
 
 
@@ -305,20 +305,46 @@ ul#contact-item li {
     padding-left: 5px;
     margin-top: 10px;
     /* height: 60px; */
-    width:25vw;
+    width: 25vw;
     line-height: 25px;
-    
-  }
 
-#footer a{
+}
+
+#footer a {
     color: black;
     list-style: none;
     text-decoration: none;
 }
 
+#bottom-footer {
+    padding: 10px 10px 4px 10px;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    margin-top: 0px;
+    background: #3c3c3c;
+    height: 40vh;
+    color: white;
+}
 
+.bf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.bf-2 a i {
 
+    background: #3c3c3c;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bf-1 p {
+    font-size: 15px;
+    line-height: 50px;
+}
 
 
 
