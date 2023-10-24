@@ -17,7 +17,7 @@ body {
     width: 1020px;
     box-shadow: 0px 0px 10px #dedede;
     background: #fff;
-    height: 200%;
+    height: 300%;
 }
 
 #header {
@@ -186,6 +186,9 @@ ul#navbar li a.home {
     height: 220px;
     /* background-color: #666666; */
     margin-left: 38px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
 }
 
 .item1 {
@@ -197,6 +200,7 @@ ul#navbar li a.home {
     /* background: #fff; */
     border: 1px solid #efefef;
     border-radius: 2px;
+    
 }
 
 .item1 a {
@@ -224,6 +228,67 @@ span.title a {
     color: #444;
     text-decoration: none;
 }
+
+/* footer */
+    #footer {
+        overflow: hidden;
+        
+        width: 1020px;
+        background: #f9f9f9;
+        /* background: #464646; */
+        color: #000000;
+        padding-top: 25px;
+        margin: 0 auto;
+        border-top: 5px solid #efefef;
+        height: 440px;
+        margin-top: 20px;
+    }
+
+    .top-footer{
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-evenly;
+    }
+    .map-section{
+        margin-left: 20px;
+    }
+
+    .map-section img{ 
+            margin-top: 20px;
+    }
+
+    .upcom-prod{
+        margin-left: 20px;
+    }
+
+    .upcom-prod marquee{
+            width: 220px;
+            margin-left: 30px;
+            height: 205px;
+            font: 14px/20px Open Sans, Helvetica, Arial, sans-serif;
+              font-weight: normal;
+            font-weight: bold;
+            color: #000000;
+    }
+
+    .upcom-prod ul{
+        list-style: none;
+    }
+
+    .upcom-prod ul li{
+        border-bottom: 1px dotted #6b6b6b;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        position: relative;
+        overflow: hidden;
+      }
+
+    
+      .getin-touch{
+        
+      }
+    
+
 
 
 
