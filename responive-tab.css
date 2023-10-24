@@ -1,0 +1,73 @@
+/* Responsive for tab */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #header {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    #navbar li {
+        display: none;
+    }
+
+    #navbar .select-menu {
+        display: block;
+        clear: both;
+        float: right;
+        margin-right: 5vw;
+        padding: 5px 10px;
+        width: 30vw;
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+    }
+
+    .main-container {
+        /* margin: 0 auto 0 auto; */
+        width: 786px;
+        padding: 0 10px;
+    }
+
+    /* hero */
+    #hero .slider {
+        width: 94%;
+        height: 346px;
+    }
+
+    .h2-para {
+        width: 94%;
+        height: 377px;
+    }
+
+    .h2-para p {
+        line-height: 25px;
+    }
+
+    .produt-card-container {
+        width: 704px;
+        gap: 10px;
+    }
+
+    .item1 img {
+        width: 100%;
+        height: 150px;
+    }
+
+    #footer {
+        width: 770px;
+    }
+
+    .map-section p img {
+        width: 250px;
+        height: 180px;
+    }
+
+    #bottom-footer {
+        height: 20vh;
+        margin-top: 20px;
+    }
+
+    #footer {
+        height: 90vh;
+    }
+
+}

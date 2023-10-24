@@ -1,0 +1,97 @@
+/* responsive for tab2 device */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    #header {
+        width: 455px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3vw 0vw;
+
+    }
+
+    #navbar li {
+        display: none;
+    }
+
+    #navbar .select-menu {
+        display: block;
+        clear: both;
+        float: right;
+        margin: 3vw 3vw;
+        margin-left: 5vw;
+        padding: 10px 10px;
+        width: 30vw;
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+    }
+
+    .main-container {
+        /* margin: 0 auto 0 auto; */
+        width: 480px;
+        padding: 0 10px;
+
+    }
+
+    .slider {
+        width: 92%;
+        height: 219px;
+    }
+
+    .h2-para {
+        width: 430px;
+    }
+
+    .produt-card-container {
+        width: 413px;
+        height: 189px;
+        gap: 10px;
+    }
+
+    /* footer */
+
+    #footer {
+        width: 437px;
+        height: 135vh;
+
+    }
+
+    .top-footer {
+        flex-direction: column;
+    }
+
+
+    .map-section p img {
+        width: 250px;
+        height: 180px;
+    }
+
+    #bottom-footer {
+        height: 15vh;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .upcom-prod h3 {
+        margin-top: 50px;
+        margin-left: 0;
+
+    }
+
+    .getin-touch h3 {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .getin-touch {
+        margin-left: 15px;
+    }
+
+    .bf {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+}
