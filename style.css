@@ -288,15 +288,10 @@ span.title a {
     overflow: hidden;
 }
 
-
-
 #footer h3 {
     font-size: 15px;
     font-weight: 700;
-
 }
-
-
 
 ul#contact-item li {
     border-bottom: 1px dotted #6b6b6b;
@@ -347,37 +342,6 @@ ul#contact-item li {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Responsive for tab */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     #header {
@@ -406,6 +370,38 @@ ul#contact-item li {
         width: 786px;
         padding: 0 10px;
     }
+
+    /* hero */
+    #hero .slider {
+        width: 94%;
+        height: 346px;
+    }
+
+    .h2-para {
+        width: 94%;
+        height: 377px;
+    }
+
+    .h2-para p {
+        line-height: 25px;
+    }
+
+    .produt-card-container {
+        width: 704px;
+        gap: 10px ;
+    }
+    .item1 img {
+        width: 100%;
+        height: 150px;
+      }
+
+      #footer{
+        width: 770px;
+      }
+      .map-section p img{
+        width: 250px;
+        height: 180px;
+      }
 }
 
 
