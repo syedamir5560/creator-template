@@ -232,7 +232,6 @@ span.title a {
 /* footer */
 #footer {
     overflow: hidden;
-
     width: 1020px;
     background: #f9f9f9;
     /* background: #464646; */
@@ -388,20 +387,32 @@ ul#contact-item li {
 
     .produt-card-container {
         width: 704px;
-        gap: 10px ;
+        gap: 10px;
     }
+
     .item1 img {
         width: 100%;
         height: 150px;
-      }
+    }
 
-      #footer{
+    #footer {
         width: 770px;
-      }
-      .map-section p img{
+    }
+
+    .map-section p img {
         width: 250px;
         height: 180px;
-      }
+    }
+
+    #bottom-footer {
+        height: 20vh;
+        margin-top: 20px;
+    }
+
+    #footer {
+        height: 90vh;
+    }
+
 }
 
 
@@ -442,16 +453,67 @@ ul#contact-item li {
         padding: 0 10px;
 
     }
+
+    .slider {
+        width: 92%;
+        height: 219px;
+    }
+
+    .h2-para {
+        width: 430px;
+    }
+
+    .produt-card-container {
+        width: 413px;
+        height: 189px;
+        gap: 10px;
+    }
+
+    /* footer */
+
+    #footer {
+        width: 437px;
+        height: 135vh;
+
+    }
+
+    .top-footer {
+        flex-direction: column;
+    }
+
+
+    .map-section p img {
+        width: 250px;
+        height: 180px;
+    }
+
+    #bottom-footer {
+        height: 15vh;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .upcom-prod h3 {
+        margin-top: 50px;
+        margin-left: 0;
+
+    }
+
+    .getin-touch h3 {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .getin-touch {
+        margin-left: 15px;
+    }
+
+    .bf {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
 }
-
-
-
-
-
-
-
-
-
 
 /* responsive for mobile  */
 
@@ -462,7 +524,6 @@ ul#contact-item li {
         align-items: center;
         justify-content: space-between;
         padding: 3vw 0vw;
-
     }
 
     #navbar li {
@@ -487,6 +548,12 @@ ul#contact-item li {
         /* margin: 0 auto 0 auto; */
         width: 320px;
         padding: 0 10px;
-
     }
+    .slider {
+        width: 97%;
+        height: 162px;
+    }
+
+    
+
 }
